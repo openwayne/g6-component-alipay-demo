@@ -67,8 +67,6 @@ Page({
       },
     });
 
-
-
     this.graph.node(function (node) {
       return {
         label: node.id,
@@ -78,7 +76,6 @@ Page({
     this.graph.data(graphData);
     this.graph.render();
     this.graph.fitView();
-
   },
   onTouch(e) {
     this.graph.emitEvent(e);
