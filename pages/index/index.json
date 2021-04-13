@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "g6-native-canvas",
+  "usingComponents": {
+    "native-canvas": "g6-component-alipay/es/g6-component/g6-component"
+  }
+}
